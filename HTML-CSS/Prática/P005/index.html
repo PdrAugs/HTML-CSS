@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Áudios e imagens flexíveis</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Áudios divertidos e legais</h1>
+    <p>Acabei de aprender como inserir áudio malucos e divertidos, então vou mostrar para vocês o que a tag &lt;audio&gt; pode fazer!</p>
+    <p>Abaixo podemos ouvir o podcast mais emocionante do Brazil!</p>
+    <audio preload="metadata" autoplay controls>
+        <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+    </audio>
+    <p>My honest reaction for that infomatiom:</p>
+    <img src="imagens/my-honest-reaction.gif" alt="Meme">
+    <hr>
+    <h1>Imagens flexíveis</h1>
+    <p>Eu também sei colocar imagens que mudam de tamanho de acordo com o tamanho da janela do seu navegador!</p>
+    <p>Olha só:</p>
+    <picture>
+        <source media="(max-width: 790px)" srcset="imagens/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1250px)" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-g.png" alt="Paisagem grande">
+    </picture>
+</body>
+</html>
