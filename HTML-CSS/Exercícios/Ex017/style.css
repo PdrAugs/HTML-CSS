@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(56, 56, 56);
+}
+
+h1, h2 {
+    font-family: 'Times New Roman', Times, serif;
+}
